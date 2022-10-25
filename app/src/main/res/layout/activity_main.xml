@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtContactUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnGetContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Get Contact" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Hour"
+            android:padding="10dp"
+            android:text="10" />
+
+        <EditText
+            android:id="@+id/txtMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Min"
+            android:padding="10dp"
+            android:text="10" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Set Alarm" />
+</LinearLayout>
